@@ -110,7 +110,7 @@ var board3 = JXG.JSXGraph.initBoard("FuncPlot3", {
         pinchVertical: true, // Allow pinch-to-zoom to zoom only vertical axis
         pinchSensitivity: 7, // Sensitivity (in degrees) for recognizing horizontal or vertical pinch-to-zoom gestures.
     },
-    pan: { enabled: true, needTwoFingers: false, needShift: false }, //Control the possibilities for panning interaction 
+    pan: { enabled: true, needTwoFingers: true, needShift: false }, //Control the possibilities for panning interaction 
 
 });
 //Get slidervalue 
