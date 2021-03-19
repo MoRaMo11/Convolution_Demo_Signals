@@ -14,57 +14,40 @@
 </head>
 
 
-
-
-<label for="c1"></label>
-<input type="range" id="c1" style="border:0; color:#1f35f6; font-weight:bold;" min="-1000" max="1000" value="-1000" oninput="c1 = this.value*0.01; board3.update();" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <body>
     <div class="container" style="margin-top:45px">
         <div class="row">
-            <div class="col-md" style="margin-left: 15px;">
-                <div style="margin-bottom: 20px;">
+            <div class="col-md" style="margin-left: 15px;transform: translate(22px, 44px);">
+                <div style="margin-bottom: 10px;">
                     <select id="functionList1" style="
-                     margin-right: 11px;
-                     margin-left: -13px;
-                     width: 140px;
-                     " onchange="changeFunction(this.value, id)">
-                     <option value="Rechteck">Rechteck</option>
-                     <option value="Dreieck">Dreieck</option>
-                     <option value="Saegezahn">Sägezahn</option>
-                     <option value="Sin">Sin</option>
-                     <option value="Sinc">Sinc</option>
-                     <option value="Gauss">Gauß</option>
-                  </select>
+                    margin-right: 11px;
+                    margin-left: -13px;
+                    width: 140px; border:1px solid black;
+                    " onchange="changeFunction(this.value, id)">
+                    <option value="Rechteck">Rechteck</option>
+                    <option value="Dreieck">Dreieck</option>
+                    <option value="Saegezahn">Sägezahn</option>
+                    <option value="Sinc">Sinc</option>
+                    <option value="Gauss">Gauß</option>
+                 </select>
                     <select id="functionList2" style="
-                     width: 140px;
-                     " onchange="changeFunction(this.value, id)">
-                     <option value="Rechteck2">Rechteck</option>
-                     <option value="Dreieck2">Dreieck</option>
-                     <option value="Saegezahn2">Sägezahn</option>
-                     <option value="Sin2">Sin</option>
-                     <option value="Sinc2">Sinc</option>
-                     <option value="Gauss2">Gauß</option>
-                  </select>
+                    width: 140px; border:1px solid black;
+                    " onchange="changeFunction(this.value, id)">
+                    <option value="Rechteck2">Rechteck</option>
+                    <option value="Dreieck2">Dreieck</option>
+                    <option value="Saegezahn2">Sägezahn</option>
+                    <option value="Sinc2">Sinc</option>
+                    <option value="Gauss2">Gauß</option>
+                 </select>
                 </div>
-                <div id="FuncPlot" class=" row jxgbox" style="margin-right:10px; margin-bottom: 10px; float:left; width:300px; height:300px;"></div>
-                <div id="FuncPlot2" class="row jxgbox" style="width:300px; height:300px;"></div>
+                <div id="FuncPlot" class=" row jxgbox" style="margin-right:10px; margin-bottom: 10px; float:left; width:300px; height:283px;border:1px solid black;"></div>
+                <div id="FuncPlot2" class="row jxgbox" style="width:300px; height:283px;border:1px solid black;"></div>
             </div>
             <div class="col-md" style="margin-top:45px">
-                <div id="FuncPlot3" class="jxgbox" style="width:610px; height:610px;"></div>
+                <div id="FuncPlot3" class="jxgbox" style="width:610px; height:610px;border:1px solid black;"></div>
+                <div for="slider"></div>
+                <input type="range" id="slider" style="border:10;  background: #ff0000; width:610px;
+                 font-weight:bold;" min="-15" max="15" Value="0.3" step="0.1" oninput="slider = this.value; board3.update(); " />
             </div>
         </div>
     </div>
