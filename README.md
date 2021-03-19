@@ -4,9 +4,6 @@ DHBW Mannheim, Student Project
 
 On GitHub hosted version  https://moramo11.github.io/Convolution_Demo_Signals
 
-You can finde another Convolution Demos hier:
+You can finde another Convolution Demos on:
 https://github.com/AlexanderUstyuzhanin/Web_Convolution
-
-and
-
 https://github.com/phiresky/convolution-demo
