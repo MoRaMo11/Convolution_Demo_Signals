@@ -45,9 +45,8 @@
             </div>
             <div class="col-md" style="margin-top:45px">
                 <div id="FuncPlot3" class="jxgbox" style="width:610px; height:610px;border:1px solid black;"></div>
-                <div for="slider"></div>
-                <input type="range" id="slider" style="border:10;  background: #ff0000; width:610px;
-                 font-weight:bold;" min="-15" max="15" Value="0.3" step="0.1" oninput="slider = this.value; board3.update(); " />
+                <div slider="slider"></div>
+                <input type="range" id="slider" style="border:0;  width:610px; cursor: pointer;" min="-10" max="10" Value="0.3" step="0.1" oninput="slider = this.value; board3.update();" />
             </div>
         </div>
     </div>
