@@ -154,5 +154,6 @@ var conv = board3.create("functiongraph", [function(t) {
 
 // Update function
 function updateConv() {
+    board3.update();
    // board3.zoomElements([conv]); // update the zoom level to fit convolution graph*/
 };
