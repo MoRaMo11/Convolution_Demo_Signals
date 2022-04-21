@@ -1,4 +1,4 @@
-# Convolution_Demo_Signals
+# Convolution_Demo_Signals / Faltungsdemonstrator für elementare Signale
 DHBW Mannheim, Student Project 
 "Demonstration of a convolution between different basic signals"
 
